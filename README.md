@@ -1,25 +1,20 @@
 # NovaClean Riviera
 
-Site vitrine premium pour NovaClean Riviera.
+Site vitrine Next.js prêt pour GitHub et Vercel.
 
-## Installation
+## Lancer en local
 
 ```bash
 npm install
 npm run dev
 ```
 
-Ouvrir `http://localhost:3000`.
+## Déployer sur Vercel
 
-## Déploiement Vercel
+1. Créer un repo GitHub.
+2. Upload tous les fichiers de ce dossier.
+3. Importer le repo dans Vercel.
+4. Laisser Vercel détecter Next.js.
+5. Deploy.
 
-1. Créer un repository GitHub.
-2. Upload/push ce dossier.
-3. Importer le repository dans Vercel.
-4. Vercel détectera automatiquement Next.js.
-
-## À modifier
-
-- Téléphone : `06 00 00 00 00`
-- Email : `contact@novacleanriviera.fr`
-- Mentions légales quand la société sera créée.
+Le numéro actuel est `06 12 34 56 78`. Remplace-le dans `app/page.tsx`.
