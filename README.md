@@ -2,19 +2,30 @@
 
 Site vitrine Next.js prêt pour GitHub et Vercel.
 
-## Lancer en local
+## Modifier les contacts
+
+Remplacer dans les fichiers `Header.tsx`, `Hero.tsx`, `Contact.tsx`, `Footer.tsx` :
+
+- `06 00 00 00 00`
+- `+33600000000`
+- `contact@novacleanriviera.fr`
+
+## Installation locale
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Déployer sur Vercel
+## Build
+
+```bash
+npm run build
+```
+
+## Déploiement Vercel
 
 1. Créer un repo GitHub.
-2. Upload tous les fichiers de ce dossier.
+2. Uploader tous les fichiers du dossier.
 3. Importer le repo dans Vercel.
-4. Laisser Vercel détecter Next.js.
-5. Deploy.
-
-Le numéro actuel est `06 12 34 56 78`. Remplace-le dans `app/page.tsx`.
+4. Lancer le déploiement.
